@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Телефон</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Михаил</td>
+                <td>Лазарев</td>
+                <td>063 222 22 33</td>
+                <td>miho@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Юлий</td>
+                <td>Цезарь</td>
+                <td>066 666 77 77</td>
+                <td>sizar@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Nikola</td>
+                <td>Tesla</td>
+                <td>098 776 54 33</td>
+                <td>ilonmask@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Artem</td>
+                <td>Vorobushkin</td>
+                <td>077 667 67 67</td>
+                <td>taeschoptica@gmail.com</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <form name="test" method="post" action="input1.php">
+        <p><b>Ваше имя:</b><br>
+         <input type="text" size="40">
+        </p>
+
+        <div class="selectsex">
+        <p><b>Укажите ваш пол</b><Br>
+         <input type="radio" name="sex" value="W" checked> Женщина <Br>
+         <input type="radio" name="sex" value="M"> Мужчина<Br>
+         <input type="radio" name="sex" value="firefox"> Какая вам разница<Br>
+        </p>
+        </div>
+
+        <div class="comment">
+        <p>Комментарий<Br>
+         <textarea name="comment" cols="40" rows="3"></textarea></p>
+        <p><input type="reset" value="Очистить"></p>
+       </form>
+        </div>
+
+       <div class="seclectcity">
+        <select>
+            <option disabled selected>Выберите город</option>
+            <option>Львов</option>
+            <option>Одесса</option>
+            <option>Запорожье</option>
+        </select>
+       </div>
+
+       <div class="selectlang">
+        <p><b>Выберите язык</b> <Br>
+            <input type="checkbox" name="lang" value="Eng"> English <Br>
+            <input type="checkbox" name="lang" value="Ukr" checked> Українська<Br>
+            <input type="checkbox" name="lang" value="Rus"> Русский<Br>
+           </p>
+          <p><input type="submit" value="Отправить"></p> 
+        </div>
+</div>
+</body>
+</html>
