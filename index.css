@@ -121,13 +121,14 @@ th {
 
 .th-dot {
   width: auto;
-  padding: 3px;
-  padding-right: 20px;
-  padding-bottom: 17px;
+  padding: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
   text-align: right;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
-  
+  margin-right: 15px;
+  color: #646464;
 }
 
 .coll-one {
