@@ -132,6 +132,28 @@ th {
   color: #646464;
 }
 
+.dot {
+  margin-right: 20px;
+}
+
+.icon_2 {
+  width: 20px;
+  height: 17px;
+  margin-right: 8px;
+}
+
+.icon_3 {
+  width: 26px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.icon_3 {
+  width: 30px;
+  height: 25px;
+  margin: 0 7px -8px -5px;
+}
+
 .coll-one {
     color: #cbcbcb;
 }
