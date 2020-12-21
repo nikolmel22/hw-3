@@ -174,8 +174,9 @@ margin-bottom: 50px;
   font-size: 15px;
   background-image: url("icon_4.png");
   background-repeat: no-repeat;
- 
-}
+ }
+
+
 
 .sradius {
   border-radius: 10px;
@@ -190,8 +191,14 @@ margin-bottom: 50px;
 	width:23px;
 	height: 20px;
 	filter: invert(1);
-	cursor: pointer;
+  cursor: pointer;
+  margin-bottom: 5px;
 }
 /*s.isearch {
   padding: 10px;
+}
+*/
+
+.search1 {
+  margin-bottom: 100px;
 }
