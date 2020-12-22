@@ -165,40 +165,33 @@ margin-bottom: 50px;
     border-bottom: none;
 }
 
-.search {
-  background-color: rgb(70, 70, 70);
+input
+{
+padding: 0;
+margin: 0;
+border: 0;
+border: none;
+}
+
+form
+{
+padding: 0;
+margin: 0;
+border: 0;
+border: none;
+}
+
+.search{
+  background-color: rgb(68, 68, 68);
   border: none;
   border-radius: 5px;
   height: 30px;
-  padding: 10px 10px 10px 10px;
-  font-size: 15px;
-  background-image: url("icon_4.png");
+  margin: -3px 6px -6px -3px;
+  background-image: url("https://www.flaticon.com/premium-icon/icons/svg/2811/2811790.svg");
+  background-size: 20px 20px;
   background-repeat: no-repeat;
- }
-
-
-
-.sradius {
-  border-radius: 10px;
-  height: 20px;
-  margin-bottom: 8px;
-  margin-right: 8px;
-}
-
-.icon-search{
-	padding-left: 5px;
-	padding-top: 5px;
-	width:23px;
-	height: 20px;
-	filter: invert(1);
-  cursor: pointer;
-  margin-bottom: 5px;
-}
-/*s.isearch {
-  padding: 10px;
-}
-*/
-
-.search1 {
-  margin-bottom: 100px;
+  background-position: 5px 5px;
+  font-size: 15px;
+  padding: 0px 0px 0px 35px;
+  color: #fff;
 }
